@@ -5,23 +5,14 @@
         "es2021": true,
         "jest": true
     },
-    "extends": [
-        "airbnb",
-        "airbnb-typescript",
-        "plugin:import/typescript",
-        "plugin:prettier/recommended"
-    ],
+    "extends": ["airbnb", "airbnb-typescript", "plugin:import/typescript", "plugin:prettier/recommended"],
     "overrides": [],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": "latest",
         "project": "./tsconfig.json"
     },
-    "plugins": [
-        "react",
-        "@typescript-eslint",
-        "prettier"
-    ],
+    "plugins": ["react", "@typescript-eslint", "prettier"],
     "rules": {
         "react/react-in-jsx-scope": "off"
     }
