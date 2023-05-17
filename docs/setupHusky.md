@@ -1,6 +1,6 @@
 Run:
 
-npx husky-init && npm i huksy
+npx husky-init && npm i husky
 
 The directory 'husky' is installed at the root directory.
 
